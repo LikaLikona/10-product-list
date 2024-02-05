@@ -20,7 +20,7 @@
     position: relative;
     overflow: hidden;
 }
-.product-grid .product-image a.image{ display: block; }
+.product-grid .product-image { display: block; }
 .product-grid .product-image img{
     width: 100%;
     height: auto;
@@ -76,4 +76,10 @@
 .rating {
 	font-size: 14px;
 	color: hsl(144, 76%, 18%);
+}
+.card-title{
+    font-size: 18px;
+}
+.card-text{
+    font-size: 10px;
 }

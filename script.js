@@ -242,11 +242,11 @@ const products = [
     }
 ]
 
-document.write(`<div class="row">`)
+document.write(`<div class="Product List mt-30">`)
 for(let i=0; i < products.length; i++) {
     document.write(`
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-8 mt-30 style="width: 18 rem;">
+    <div class="div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-8">
             <div class="product-grid">
                 <div class="product-image">
                     <img src="${products[i].image}" class="card-img" alt="...">
@@ -268,7 +268,7 @@ for(let i=0; i < products.length; i++) {
             </div>
         </div>
     </div>
-`)
+    `)
 }
 document.write(`</div`)
 
