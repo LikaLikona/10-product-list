@@ -242,10 +242,10 @@ const products = [
     }
 ]
 
-document.write(`<div class="Product List mt-30">`)
+document.write(`<div class=" row mt-30">`)
 for(let i=0; i < products.length; i++) {
     document.write(`
-    <div class="div class="row">
+    
         <div class="col-lg-2 col-md-3 col-sm-8">
             <div class="product-grid">
                 <div class="product-image">
@@ -260,15 +260,15 @@ for(let i=0; i < products.length; i++) {
                         <h3 class="card-price">$${products[i].price}</h3>
                         <a class ="add-to-cart" href="#"> Add to Cart</a>
                         <p class="card-text">${products[i].description}</p>  
-                    </div>
-                    <div class="rating">
+                </div>
+                <div class="rating">
                         <p class="fa fa-star">${products[i].rating.rate} (Count"${products[i].rating.count})</p>
-                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    `)
+    
+        
+`)
 }
 document.write(`</div`)
 
